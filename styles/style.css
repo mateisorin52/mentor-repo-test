@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../Lobster/Lobster-Regular.ttf");
+}
+
+.my-class {
+  background-color: green;
+}
+#my-id {
+  background-color: aqua;
+  background-color: blueviolet;
+  background-color: black;
+  background-color: red;
+}
+div > label > p {
+  background-color: black;
+  color: white;
+}
+.box-model-class {
+  height: 50px;
+  width: 50px;
+  background-color: darkblue;
+  padding: 20px;
+  border: 10px solid black;
+  margin-top: 100px;
+}
+.paragraph-class {
+  font-family: "Lobster", cursive;
+}
+
+table {
+  margin-top: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+}
+.flex-item {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90vw;
+}
+.position-container {
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: lightgrey;
+}
+.position-item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
+.position-item-2 {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+.grid-container {
+  display: grid;
+  margin-top: 10px;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(161, 161, 161);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.media-query-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .media-query-class {
+    flex-direction: column;
+  }
+}
