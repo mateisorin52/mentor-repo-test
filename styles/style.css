@@ -9,6 +9,7 @@
 #my-id {
   background-color: aqua;
   background-color: blueviolet;
+  color: red;
 }
 div > label > p {
   color: green;
